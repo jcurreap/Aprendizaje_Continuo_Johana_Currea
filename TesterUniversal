@@ -1,0 +1,236 @@
+Tester universal
+Lo que se debe saber de pruebas de software
+
+Herramientas de prueba
+Gestion de pruebas
+Estrategia de pruebas
+Conceptos Claves
+Pruebas en el contexto de la ingenieria de software
+Pruebas Tempranas
+
+AREA DE QA Y PRUEBAS DIFERENCIAS
+
+	QA y Pruebas trabajan  muy de la mano pero tiene diferencias, ahi se debe tener en cuenta lo siguiente:
+	la gestion de la calidad
+	Aseguramiento de la calidad
+	Control de la calidad
+
+	Gestion de la calidad: (El actuar de una compañia) se enfoca en asegurar que los productos que ofrecen y que
+	cumpla con los estandares y expectativas de calidad. Para la gestion de calidad se requiere el establecimietno de una 
+	politica de calidad, objetivos de la calidad, plan de calidad la manera como la organizacion planee implemnetar 
+	esa politica  y objetivos y como se asegura y controla el cumpliento de esas normas. 
+ 
+	Aseguramiento de la calidad: Se centra en  la definicion y la verificacion del cumplimiento de los procesos, que todas
+	las actividades se lleven a cabo de manera completa y correcta y eso genera confianza, tambien que los productoss de trabajo 
+	cumplan con el  nivel de calidad esperado.
+	Otra defiinicion: el aeguramento de calidad se centra en los procesos que se debe seguir para hacer bien el trabajo
+ 
+	Control de calidad: Actividades cuya tarea principal es la deteccion de defectos en los productos del trabajo
+	los productos de trabajo se enfoca en los requisitos, analisis de diseño, codificacion
+ 
+PRINCIPIOS DE LAS PRUEBAS
+	Principio es una norma que se cumple o se sigue para lograr un proposito.
+	Estos principios deben considerar a la hora de hacer pruebas
+	Objetivo de los 7 principios:
+	 
+	1La pruebas muestran la presencia de defectos : se debe entender el contexto, entender la necesidad	, entender que es lo que 
+	le interesa al negocio para detectar los defectos mas importantes
+	2.No es posible realizar pruebas exhaustivas : toman un monton de tiempo, que eso se traduciria en costos y no es viable
+	3. Pruebas tempranas: entre mas temprano se encuentra un defecto menos costoso seria corregirlo
+	4.Aseguramiento de defectos: Se deben crear defectos porque seguramente donde hay un defecto habran muchos a su alrededor
+	5.Paradoja del pesticida: Se debe hacer mejoras de prueba y crear mas casos de pruebas para poder encontrar defectos y evitar hacer 
+	los mismos casos de prrueba sino se van a enontrar defectos
+	6. Las pruebas dependen del contexto: un buen entendimiento del contexto permiten que las pruebas tengan un mejor enfoque y se 
+	podran encontrar defectos mas importantes
+	7. La falacia de la ausencia de errores, no podemos decir que un software no tiene ningun defectos asi se hayan hecho unas buenas
+	pruebas siempre puede haber algunos elementos que se pasen en las pruebas 
+
+CAUSA RAIZ, DEFECTO Y EFECTO
+
+	Defecto: es un imperfecto en un producto de trabajo, como requisito, imperfecto en un documento de diseño o un imperfecto
+	en el codigo Y que hace que el softaware falle con respecto a lo esperado
+	Causa raiz: el origen del error humano que pudo haber generado el defecto
+	Efecto: ya es la consecuencia y esa la evidencia el usuario final
+
+
+PRUEBAS EN EL CONTEXTO DE LA INGENIERÍA DE SOFTWARE
+
+	Modelos de desarrollo: Conjunto de actividades que se deben desarrollar en un orden logico y cronologico, eso se conoce como
+	ciclo de desarrollo de software.
+	Es importante conocer el modelo de desarrollo del proyecto	en el que uno es parte, saber cual es la manera en que se deben
+	de llevar a cabo las actvidades para lograr el nivel de calidad esperado por el negocio y por el usuario.
+
+	Para el modelo de desarrollo de software 4 aspectos:
+	Para cada actividad de desarrollo que entregue un producto de trabajo se debe realizar una actividad de pruebas
+	Los niveles de pruebas deberian estar integrados como parte del modelo de desarrollo
+	Las tecnicas de revisiones deberian aplicarse de manera temprana, en requisitos, documentos de  diseño
+	La planeacion , el analisis y el diseño de la prueba deben comenzar lo mas pronto posible
+
+
+	Hay dos formas de desarrollar el software :
+	Los modelos seceuenciales es donde las actividades se realizan en secuencia, eso quiere decir la actividad siguiente solo 
+	se inicia cuando la anteior haya terminado. Se debe esperar hasta el final del proyecto y de todas las actividades para 
+	entregar un producto, las pruebas solo se hacen hasta el final.
+
+	Modelos iterarivos incrementales , repiten varias veces el mismo ciclo y cada vez que repite el mismo ciclo el software va creciendo,
+	se requiere de varias iteraciones para lograr el producto final esperado.
+	Cada vez que se hace una entrega es lo anterior mas una nueva funcionalidad. 
+
+
+	Diferencias entre secuenciales y iteracion incremental	
+
+	Los modelos iterativos incrementales implica solapamiento de actividades o trasposicion de actividades
+	Los modelos iterativos incrementales entregan software o porciones de software en ciclos mas cortos
+	Los modelos iterativos incrementales el feedback es mas temparno y eso es para sesiorarse que se estan logrando los objetivos, 
+	mientras mas pronto se incuya el negocio mejor son las pruebas 
+	Autmatizacion de las pruebas  para sostener la calidad del producto de software
+
+NIVELES DE PRUEBAS
+
+	Conjunto de actividades relacionados con pruebas que se puden planear , preparar y gestionar conjuntamente, cada nivel tiene 
+	un objetivo y se lleva a cabo en un moemnto especifico.
+
+	Niveles basicos de pruebas:
+	Unitario
+	integración
+	sistema
+	aceptacón
+
+	Para cada nivel se debe tener claro : los objetivos, los documentos a partir de los cuales se generan los escenarios, los objetos
+	de pruebas o sea lo que estamos probando, los fallos tipicos y tener claro cual es el ambiente de pruebas que se va autlizar 
+	en cada uno de ellos.
+	
+	Puebas unitarias es el primer conjunto de pruebas, coincide los objetivos de los demas niveles, reducir riesgos, verificar 
+	que los comportamientos funcionales y no funcionales se cumplan, generar la confianza a nvel de calidad esperaado.
+	La diferencia es que en las prueba untarias se realizan pruebas al componente mas pequeño del desarrollo de manera 
+	aislada y se debe sersiorar que cumpla con lo especificado. Tambien se tiene acceso al codigo y al ambiente de dessarrollo.
+	Las pruebas unitarias es el primer nivel de pruebas, genera la confianza para contnuar al siguiente nivel.
+
+
+TECNICAS ESTATICAS DE PRUEBAS
+(PRODUCTOS DE TRABAJO:requisitos , arquitectura de la aplicacion, el diseño , los prototipos, el codigo, los casos de prueba)
+	Es conveniente buscar esrategias, metodos o tecnicas para mitigar riesgos para que los productos de trabajo no generen retrocesos
+	(ambiguedades, que esten incompletos)
+	Las tecnicas nos sersioran que los productos de trabajo cumplen con la estructura esperada y con las
+	expectactivas del negocio y del usuario final.
+
+	Las tecnicas estaticas y dinamicas de pruebas mitigan el riesgo. 
+	
+	TECNICAS ESTATICAS :no requieren ejecución de codigo, son tecnicas que se aplican en el documento y en el codigo.
+	TECNICAS DINAMICAS: si implican la ejecución del codigo, se hace una vez el codigo este completo o que hayan funcionalidades
+	del codigo que puedan estar sometidas a pruebas.
+
+	Las tecnicas estaticas sirve para que haya deteccion temprana de defectos para que sean corregidos.	
+	Cuenta con dos alternativas:
+	Las revisiones y analisis estatico
+	Las revisiones son realizadas por seres humnos y se basa en la experiencia de las personas
+	la tecnica analisis estatico se aplica cuando el producto de trabajo esta en un lenguaje de programacion,
+	el analisis estatico se realiza a traves de herramientas y eso lo hace una persona que sepa lenguaje de programacion
+
+
+REVISIONES COMO ESTRATEGIA DE PRUEBAS:
+	Actvidades manuales realizadas por seres humanos que se basan en la percepcion , experiencia y conocimeinto de de las personas.
+	El foco de la revision depende de los objetivos acordados:
+	Puede ser encontrar defectos
+	Aprender o lograr comprension de un aplicativo
+	O para preparar a un equipo
+
+TIPOS DE REVISION
+	Revision Informales: se caracteriza por no seguir un proceso definido y no tener una salida documentada formal
+	Revisiones formales tiene la participacion de un equipo, tiene resultados de la revision documentados y procedimietnos 
+	documentados para llevar a cabo la revision.
+
+	Depende tambien del modelo del ciclo de desarrollo, las revisiones son mas formales en los modelos tradiciones y menos
+	formales en los modelos agiles
+
+	Las revsiones son relevantes para encontrar defectos desde fases temparana del ciclo de deasarrollo, entre mas temprano encuentre
+	los defectos mas pronto lo podran solucionar y evitar retrocesos. Las revisiones tambien permiten entender sobre el negocio 
+	y los productos, entender mejor las necesidades de los usuarios y el producto software
+
+
+TECNICAS DINAMICAS DE PRUEBA
+
+	Casos de prueba un conjunto de precondiciones, resultados esperados y postcondicones que se realiza para probar una condicion 
+	o regla de negocio, se utiliza para probar algo funcional o no funcional, cuando se ejecuta un caso de prueba y el resultado 
+	esperado no coincide con el resultado del aplicativo se detecta una desviaciónun incumplimiento con respcto al requisito,
+	se detecta fallo
+
+	Parara diseñar casos de pruebas se cuentan con tipos tecnicas:
+	Tecnicas caja blanca
+	Tecnicas caja negra 
+	Tecnicas basada en la experiencia
+
+	Tecnicas sistematicas (caja blanca,caja negra) cuentan con un proceso basico la intención de esas tecnicas es que con el menor
+	caso de pruebas se puede tener buena cobertura del objeto que se esta pobando.
+	En caja blanca la cobertura es el procentaje de codigo que se ha prohabado por los casos de prueba.
+	En caja negra la cobertura es alcance o de los requisitos se han cubierto por los casos de prueba.
+	
+	Las tecnicas de caja negra esta enfocadas en probar el comportamiento y toman la informacion desde los productos de trabajo,
+	los documentos de requsisitos, 	los casos de uso , las historias de usuario, se concentran en las entradas y salidas 
+	del objeto sin tener en cuenta su estructura interna, es aplicable para pruebas funcional como las no funcional( y se usa 
+	en todo los nieveles de prueba.)
+	
+	Tecnicas de caja blanca se enfoncan en la estrutura interna de los objetos, se aplica para hacer analisis de la arquitectura,
+	la estrutura interna del codgo y el procesamiento intermo del objeto de pruebas.
+
+	Tecnicas basadas en la experiencia se basa en el cnnocimiento, intucion y experiencia del probador y no sigue ningun proceso,
+	son relevantes porque complementan las tecnicas de caja negra y caja blanca.
+
+	Con ese conocimineto,utiliza esa informacion para diseñar escenarios o casos puruebas, se aplican en todos los niveles de pruebas.
+
+
+EQUIVALENCIA
+	Tecnicas de equivalencia se utiliza para la ralización de diseño de casos de pruebas.
+	Las tecnicas de equvalencia hacen parte de la categoria de tecnicas de caja negra, se centran en el comportamiento funcional
+	y no funcional.
+	Las tecnicas de equivalencia son particiones de datos donde se espera que todos los miembros de la particion sean 
+	procesados de la misma manera
+
+	Las clases de equivalencia se pueden dividir en dos
+	Clases de quivalencia de valores validos: datos de entrada que son acepatdos por el aplicativo
+	Clase de equivalencia valores no validos: datos qe no son permitidos por el aplicativo porque no cumplen las reglas de negocio
+
+
+RIESGOS
+	La gestion de riesgos sirven con el fin de mitigar aspectos que puedan impedir el logro de los objetivos.
+	
+	Riesgo :etsa expresado como probabilidad de oxurrencia por impacto
+	Es un evento o problema que puede ocurrir o no, y si se materializa puede ocurrir un impacto
+	
+	Hay riegos de proyecto y riesos de producto:
+
+	Riegos de proyecto son eventos o condciones que si se presentan impactan el logro de los objetivos del proyecto. 
+	eventos administrativos, de ambiente, de personas, de recursos, no cumplen con las fechas de entrega, 
+	probemas de comunicacion afectan el avance , el progreso de los proyectos
+
+	Riegos de productos, son eventos que si se presentan afectan la calidad del produto de software 
+	por ejemplo el incumplimiento de la funcionalidad que no haga lo que debe de hacer, el aplicativo no es facil de usar,
+	problemas para usarlo en los exploradores de internet.
+
+	Se debe definir el plan que se hace o mitigarlos a traves de acciones preventivas, 
+	aceptarlos pargenerar medidas correcivas, 
+	transferir y evitar
+	Los riesgos de proyecto tienen asociado un plan que es un conjunto de actividades y en caso tal de que el evento 
+	se materialice.
+	los riegos de productos su plan de mitigacion es atraves del alcance y la estrategia de las ptuebas
+
+
+HERRAMIENTAS QUE SOPORTAN EL PROCESO DE PRUEBAS
+
+	El uso de herremientas es para meojrar la eficiencia de las pruebas de pronto por tareas repetitivas, pruebas relacionadas con
+	la gestion,	tareas que manualmente consumen muchos recursos. 
+
+	MEJORAR LA CALIDAD DE PRUEBAS ESPECIALIZADAS: saber que herramientas nos pueden ayudar a las pruebas especializadas: eficiencia
+	seguridad , usabilidad. LAS HERRAMIENTAS AUMTAN LA CONFIABILIDAD DE LAS PRUEBAS
+
+	La clasificacion de las pruebas se clasifican en 7 categorias:
+	Herramientas que se clasifican de acuerdo a su uso o proposito
+	Las que soportan la gestion de pruebas
+	Soportan las pruebas estaticas 
+	Herramientas que soportan el diseño de las pruebas
+	Soportan la ejecución y registro de pruebas: herramientas que nos apoyan en la automatizacion de los casos de pruebas
+	ya sea en la regresion o en la 	aceptación (ejecución del robot), herramientas que soportan las pruebas unitarias para
+	medir la cobertura de sus pruebas, herrmeinteas para construir drivers
+	Soportan puebas de rendimeinto y monitoreso en producción: herrmeientas que prueban la caracteristicas de eficiencia la carga,
+	el estres del volumnen con caracteristicas de monitireo sin inyectar datos
+	Soportan las pruebas especializasas: herramientas orientada la calidad de los datos, conversion y migración, usabilidad y accesibilidad
